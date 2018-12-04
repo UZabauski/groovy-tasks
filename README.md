@@ -16,7 +16,7 @@
 `task5.groovy` - function `boolean isIp(string)`, define, whether input string have a Ip format. Example - `isSublist(10.0.152.164) == true`
 
 ## Task 6
-`task6.groovy` - function `[:] adults(string)`, find all adults in the input map and return them as map. Example - `adults([Kate: 24, Alan:16, Osvald: 18]) == [Kate: 24, Osvald: 18]`
+`task6.groovy` - function `[:] adults([:])`, find all adults in the input map and return them as map. Example - `adults([Kate: 24, Alan:16, Osvald: 18]) == [Kate: 24, Osvald: 18]`
 
 ## Task 7
 `task7.groovy` - function `[:] encryptThis(string)`, You need to encrypt input string. Conditions:
