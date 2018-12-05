@@ -6,4 +6,4 @@ def isSublist(list, sublist) {
   }
 }
 
-isSublist([1,2,3], [1,2])
+return this
