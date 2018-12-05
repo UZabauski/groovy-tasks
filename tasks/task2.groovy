@@ -1,5 +1,3 @@
-def myArray = [1,2,3]
-
 def mulEvenOdd(List x) {
   x.eachWithIndex {it, index ->
     if (it%2==0) {
@@ -11,4 +9,4 @@ def mulEvenOdd(List x) {
   return x
 }
 
-mulEvenOdd(myArray)
+return this
