@@ -12,6 +12,7 @@ def mulEvenOdd(list)
     
     else {(list[i]=it*=3)}
   }
+  return list
 }
  
 return this
