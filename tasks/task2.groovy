@@ -1,7 +1,5 @@
 def mulEvenOdd(AbstractList<Integer> list) {
-    list.eachWithIndex {it, index->
-        (it%2==0) ? (list[index]=it*=2) : (list[index]=it*=3)
-    }
-    return list
+    return list.collect {(it%2==0) ? it*2 : it*3}
 }
+
 return this
