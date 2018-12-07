@@ -13,7 +13,7 @@
 `task4.groovy` - function `int fib(int)`, return n-th element of [Fibonacci's sequence](https://en.wikipedia.org/wiki/Fibonacci_number). Example - `fib(4) == 3`
 
 ## Task 5
-`task5.groovy` - function `boolean isIp(string)`, define, whether input string have a Ip format. Example - `isSublist(10.0.152.164) == true`
+`task5.groovy` - function `boolean isIp(string)`, define, whether input string have a Ip format. Example - `isIp(10.0.152.164) == true`
 
 ## Task 6
 `task6.groovy` - function `[:] adults([:])`, find all adults in the input map and return them as map. Example - `adults([Kate: 24, Alan:16, Osvald: 18]) == [Kate: 24, Osvald: 18]`
@@ -24,7 +24,7 @@
 - you need to encrypt each word using following rules:
   * The first letter needs to be converted to its ASCII code
   * The second letter needs to be switched with the last letter
-Example - `encryptThis("Hello") == "72olle", .encryptThis("hello world") == "104olle 119drlo"`
+Example - `encryptThis("Hello") == "72olle", encryptThis("hello world") == "104olle 119drlo"`
 
 ## Task 8
 `task8.groovy` - function `string parseAndFilterJson(string)`, parse input json, find all entries, and return another json with values where sum of digits in value field equal to 9. Example - `parseAndFilterJson("{\"Kate\":18,\"Alan\":16,\"Osvald\":27}") == "{\"Kate\":18,\"Osvald\":27}"`
