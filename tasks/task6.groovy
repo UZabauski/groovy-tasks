@@ -1,9 +1,5 @@
-def adults(people=[:]){
-	result =[:]
-	people.each { entry ->  
-	if ("$entry.value">=18) 
-		result.put("$entry.key", "$entry.value")
-	}
-	return result
+def adults(people){
+	return people.findAll { it.value>=18 } 
 }
+
 return this
