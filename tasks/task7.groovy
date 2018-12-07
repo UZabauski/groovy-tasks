@@ -1,7 +1,7 @@
 def to_char (String as_str){
   char character = as_str.charAt(0);
   int ascii = (int) character;
-  return as_str.replace("$character", "$ascii") + " "
+  return as_str.replace("$character", "$ascii")
 }
 
 def ch_sym (String ch_str) {
@@ -14,7 +14,7 @@ def encryptThis(String estr){
   for (int i=0;i < str.size();i++) {
  	if (i==0) newstr = (to_char(str[i]))
     else {
-      newstr += to_char(ch_sym(str[i]))
+      newstr += " " + to_char(ch_sym(str[i]))
     }
   }
 
