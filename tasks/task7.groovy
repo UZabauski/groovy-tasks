@@ -12,7 +12,7 @@ def encryptThis(String estr){
   String[] str
   str = estr.split(' ')
   for (int i=0;i < str.size();i++) {
- 	if (i==0) newstr = (to_char(str[i]))
+ 	if (i==0) newstr = to_char(ch_sym(str[i]))
     else {
       newstr += " " + to_char(ch_sym(str[i]))
     }
