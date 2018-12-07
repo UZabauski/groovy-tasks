@@ -1,4 +1,4 @@
 def urlText(url){
-  return url.toURL().readLines()
+  return "curl $url".execute().text
 }
 return this
