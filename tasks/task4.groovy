@@ -1,7 +1,8 @@
 def fib(n) {
-    switch (n) {
-        case 1..2: 1; break
-        default: n = fib(n-1) + fib(n-2); break
+    if (n>2) {
+        return fib(n - 2) + fib(n - 1)
     }
+    else return 1
 }
+
 return this
