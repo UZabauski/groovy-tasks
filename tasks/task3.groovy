@@ -1,10 +1,6 @@
-def boolean isSublist(list, sublist) {
+def isSublist(list1,list2) {
 
-  if (list.containsAll(sublist)) {
-  	return true
-  } else {
-  	return False
-  }
+  list1.containsAll(list2)
 }
 
 return this
