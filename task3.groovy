@@ -1,9 +1,5 @@
 def isSublist(list, sublist) {
-  if (list.containsAll(sublist)) {
-  	return true
-  } else {
-  	return False
-  }
+  list.containsAll(sublist)
 }
 
-isSublist([1,2,3], [1,2])
+return this
