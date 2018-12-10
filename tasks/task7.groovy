@@ -1,6 +1,6 @@
 String soso = "hello world dorada";
 
-def split_me( inb_string ){
+def encryptThis( inb_string ){
     parts = inb_string.split()
     String new_string = ""
     for ( elem in parts) {
