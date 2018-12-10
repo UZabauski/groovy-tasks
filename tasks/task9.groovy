@@ -1,5 +1,5 @@
 def exec (String data) {
   
-return 	println(data.trim().execute().text)
+return 	data.execute().text.trim()
 }
 return this
