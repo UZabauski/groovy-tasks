@@ -6,5 +6,5 @@
     str+=new_word
   }
   return str
-}
-return this'''
+}'''
+return this
