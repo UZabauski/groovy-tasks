@@ -1,7 +1,7 @@
 def encryptThis(s) {
     
     assert s instanceof String
-    def res 
+    String res = ""
     String[] str
     
     str = s.split()
@@ -14,3 +14,5 @@ def encryptThis(s) {
     }
     return res
 }
+
+return this
