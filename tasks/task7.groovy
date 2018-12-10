@@ -1,4 +1,4 @@
-def encryptThis(str){
+'''def encryptThis(str){
   String[] words = str.split(" ");
   str=''
   words.each{letter ->
@@ -7,4 +7,4 @@ def encryptThis(str){
   }
   return str
 }
-return this
+return this'''
