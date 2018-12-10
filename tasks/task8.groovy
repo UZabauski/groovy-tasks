@@ -6,7 +6,7 @@ def parseAndFilterJson(String myjson) {
   result =[:]
   def object = jsonSlurper.parseText(myjson)
   assert object instanceof Map
-  return object.findAll { it.value %9== 0 }
+  return JsonOutput.toJson(object.findAll { it.value %9== 0 })
 }
 
 return this
