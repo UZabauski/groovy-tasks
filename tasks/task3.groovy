@@ -1,4 +1,4 @@
 def isSublist(x, y){
-    x.intersect(y) as boolean
+    x.containsAll(y)
 }
 return this
