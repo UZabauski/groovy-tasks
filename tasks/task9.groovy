@@ -1,4 +1,4 @@
-def exc (String data) {
+def exec (String data) {
     return data.execute().text.trim()
 }
 return this
