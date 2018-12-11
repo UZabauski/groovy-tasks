@@ -1,4 +1,4 @@
-boolean contains(List<?> list, List<?> sublist) {
+boolean isSublist(List<?> list, List<?> sublist) {
     return Collections.indexOfSubList(list, sublist) != -1;
 }
 
